@@ -1,14 +1,17 @@
 {
-  "name": "craftstown",
-  "version": "1.0.0",
-  "description": "An app for skills sharing",
-  "main": "appp,js",
+  "name": "helloworld",
+  "version": "0.0.0",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node ./bin/www"
   },
-  "author": "Jbseries",
-  "license": "ISC",
   "dependencies": {
-    "express": "^4.16.4"
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "express": "~4.16.0",
+    "http-errors": "~1.6.2",
+    "jade": "~1.11.0",
+    "morgan": "~1.9.0",
+    "pug": "^2.0.3"
   }
 }
